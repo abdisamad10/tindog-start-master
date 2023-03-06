@@ -6,7 +6,7 @@
     color: #fff;
 }
 .container-fluid {
-    padding: 3% 16%;
+    padding: 3% 16% 9%;
 }
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -53,22 +53,23 @@ p{
 
  /* title image */
  .title-image {
-    width: 60%;
-    margin-left: 6%;
+   width: 20%;
     transform: rotate(25deg);
+    position: absolute;
+   
+    
  }
 
   /* fearutes section */
 
   #features {
     padding: 7% 16%;
+    background-color: #fff;
+   position: relative;
   }
   .feature-box {
    text-align: center;
    padding: 7.5%;
-  }
-  .fa-sharp {
-    
   }
  .icon {
   color: #ef8172;
@@ -102,3 +103,15 @@ p{
     width: 14%;
     margin: 20px 20px 50px;
   }
+
+  /* pricing section */
+
+  #pricing {
+    padding: 100px;
+    text-align: center;
+  }
+  .pricing-column {
+    padding: 3% 2%;
+    
+  }
+ 
