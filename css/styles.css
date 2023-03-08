@@ -53,11 +53,8 @@ p{
 
  /* title image */
  .title-image {
-   width: 20%;
     transform: rotate(25deg);
     position: absolute;
-   
-    
  }
 
   /* fearutes section */
@@ -114,4 +111,46 @@ p{
     padding: 3% 2%;
     
   }
+
+  /* section call to action (cta) */
+
+  #cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+  }
+  .cta-heading {
+    font-family:'Montserrat-Light', sans-serif ;
+    font-size: 4.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+  }
+
+  /* footer */
+
+  #footer {
+    background-color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+
+  }
+  .footer-icons {
+    margin: 20px 8px;
+  }
  
+
+
+
+  /* mediá query style */
+  @media screen and (max-width:1028px) {
+
+    #title {
+      text-align: center;
+    }
+    .title-image {
+      position: static;
+      transform: rotate(0);
+
+    }
+  }
